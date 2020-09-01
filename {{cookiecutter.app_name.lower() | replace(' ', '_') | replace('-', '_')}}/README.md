@@ -13,7 +13,7 @@
   ```
 
 ## Instructions
-1. Create (and activate) a new environment from  `Pipfile` file. Navigate to this file location or folder `./{{cookiecutter.project_name}}` and find `Pipfile` file and follow following instructions.
+1. Create (and activate) a new environment from  `Pipfile` file. Navigate to this file location or folder `./{{cookiecutter.app_name.lower() | replace(' ', '_') | replace('-', '_')}}` and find `Pipfile` file and follow following instructions.
   ```bash
   pipenv install
   pipenv shell
