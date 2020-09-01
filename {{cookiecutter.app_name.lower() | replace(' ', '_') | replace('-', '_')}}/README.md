@@ -20,5 +20,5 @@
   ```
 2. Run the flask application
   ```bash
-  python {{cookiecutter.script_file_name}}.py
+  python flask_{{cookiecutter.script_name.lower()}}.py
   ```

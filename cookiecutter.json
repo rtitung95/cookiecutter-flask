@@ -1,7 +1,5 @@
 {
 	"app_name": "Flask Demo",
   "name": "John Doe",
-  "project_name": "{{cookiecutter.app_name.lower() | replace(' ', '_') | replace('-', '_')}}",
-	"script_name": "app",
-	"script_file_name": "flask_{{cookiecutter.script_name.lower()}}"
+	"script_name": "app"
 }
