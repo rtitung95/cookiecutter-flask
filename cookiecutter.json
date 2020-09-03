@@ -1,5 +1,6 @@
 {
-	"app_name": "Flask Demo",
+  "app_name": "Flask Demo",
   "name": "John Doe",
-	"script_name": "app"
+  "script_name": "app",
+	"packaging_tool": ["conda", "pipenv"]
 }
